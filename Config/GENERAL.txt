@@ -8,6 +8,12 @@ CONFIG_PACKAGE_luci-app-autoreboot=y
 # CONFIG_PACKAGE_luci-app-samba4=y
 CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-app-wolplus=y
+
+# stauts
+CONFIG_PACKAGE_luci-app-cpu-status=y
+CONFIG_PACKAGE_luci-app-temp-status=y
+CONFIG_PACKAGE_luci-mod-status-nss=y
+
 #删除插件
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=n
 CONFIG_PACKAGE_luci-app-wol=n
